@@ -35,8 +35,6 @@ function App() {
           isOpen: users[key].isOpen,
         });
 
-        console.log("Is open: ", key, users[key].isOpen);
-
         return (
           <div key={key} className="accordion">
             <div className="accordion__header">
